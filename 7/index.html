@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="">
+    <div>
+      <input type="text" name="card-number" class="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
+      <img class="paying-system" src="./assets/question.svg" alt="Система">
+    </div>
+    <div>
+      <label for="expire-date">VALID THRU</label>
+      <input type="text" name="expire-date" class="expire-date" placeholder="ММ/ГГ" required>
+    </div>
+    <div>
+      <label for="cvc">CVC</label>
+      <input type="text" name="cvc" class="cvc" placeholder="CVC" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" class="email" placeholder="example@mail.ru" required>
+      <button class="submit" disabled>Оплатить</button>
+    </div>
+  </form>
+</body>
+<script type="module" src="index.js"></script>
+
+</html>

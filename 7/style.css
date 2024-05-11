@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  padding: 20px;
+  background-color: #DDD;
+  border: 2px solid #AAA;
+}
+
+.card-input {
+  display: block;
+  padding: 20px;
+}
+
+.paying-system {
+  max-width: 30px;
+  max-height: 20px;
+}

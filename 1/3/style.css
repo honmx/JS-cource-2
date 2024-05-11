@@ -1,0 +1,13 @@
+.btn {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  width: 200px;
+  height: 30px;
+  opacity: 0;
+}
+
+.container {
+  height: 300px;
+  border: 1px solid black;
+}
